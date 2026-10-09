@@ -47,10 +47,14 @@
 
 ## Структура проекта
 
+```text
 lab2
 │
 ├── index.html
 ├── models.html
 ├── contacts.html
 ├── style.css
+│
 └── images
+    └── car.jpg
+```
