@@ -1,0 +1,134 @@
+/* Общие настройки страницы */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Оформление верхней части сайта */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Стили для ссылок */
+a {
+    color: white;
+    text-decoration: none;
+
+    border: 2px solid white;
+    padding: 8px 15px;
+    margin-left: 15px;
+
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Изменение ссылки при наведении */
+a:hover {
+    color: orange;
+}
+
+
+/* Основной блок */
+main {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+
+    flex: 1;
+}
+
+
+/* Картинка */
+img {
+    display: block;
+    margin: auto;
+}
+
+
+/* Нижняя часть сайта */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Таблица автомобилей */
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+
+/* Заголовки таблицы */
+
+th {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* Ячейки таблицы */
+
+td {
+    border: 1px solid #555;
+    padding: 12px;
+}
+
+
+/* Первое поле - по левому краю */
+
+td:first-child {
+    text-align: left;
+}
+
+
+/* Второе поле - по центру */
+
+td:nth-child(2) {
+    text-align: center;
+}
+
+
+/* Третье поле - по правому краю */
+
+td:last-child {
+    text-align: right;
+}
+
+.email {
+    color: #222;
+    text-decoration: underline;
+}
+
+
+.email:hover {
+    color: orange;
+}
