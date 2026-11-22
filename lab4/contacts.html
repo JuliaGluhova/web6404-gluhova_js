@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header__title">AUTO WORLD</h1>
+
+        <nav class="header__nav">
+            <a href="index.html" class="header__link">Главная</a>
+            <a href="models.html" class="header__link">Модели</a>
+            <a href="contacts.html" class="header__link">Контакты</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h2>Связаться с нами</h2>
+
+        <p>Телефон: +7 (900) 123-45-67</p>
+        <p>Email: <a href="mailto:auto@mail.ru">auto@mail.ru</a></p>
+        <p>Адрес: Россия, г. Самара, Московское, 34Б</p>
+
+        <h3>Оставить заявку</h3>
+
+        <form id="contact-form">
+            <p>
+                <label>Имя:</label><br>
+                <input type="text" id="name" required>
+            </p>
+
+            <p>
+                <label>Email:</label><br>
+                <input type="email" id="email" required>
+            </p>
+
+            <p>
+                <label>Сообщение:</label><br>
+                <textarea id="message" required></textarea>
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox" id="agree" required>
+                    Согласен на обработку данных
+                </label>
+            </p>
+
+            <button type="submit">Отправить</button>
+            <p id="status"></p>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>Лабораторная работа №4</p>
+    </footer>
+
+</body>
+</html>
